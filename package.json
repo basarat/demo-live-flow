@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
-    "build:jest": "jest",
-    "build:tsc": "tsc -p .",
-    "build": "npm run build:jest && npm run build:tsc",
-    "start": "nodemon src/index.ts"
+    "build": "tsc -p .",
+    "start": "node lib/index.js"
   },
   "keywords": [],
   "author": "bas@basarat.com",
